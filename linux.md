@@ -71,3 +71,13 @@ $* 和 $@ 都表示传递给函数或脚本的所有参数，不被双引号(" "
 cat /proc/sys/kernel/threads-max
 ```
 
+perl脚本
+
+```
+system
+$ARGV[n]：表示命令行参数数组的元素
+my和our
+<https://www.cnblogs.com/gdwkong/p/8669220.html>
+<https://poi.apache.org/download.html>
+```
+

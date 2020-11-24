@@ -2,7 +2,7 @@
 
 1、基础架构图
 
-![image-20200812172737783](D:\software\typora\zy_workspace\mysql.assets\image-20200812172737783.png)
+![image-20200812172737783](mysql.assets\image-20200812172737783.png)
 
 2、mysql的线程池
 
@@ -1211,6 +1211,16 @@ day02
 
 
 
+
+Innodb的版本
+
+​```mysql
+select @@version; #数据库版本
+select @@innodb_version;#innodb的版本
+show engine innodb status\G;
+​```
+
+sysbench压力测试
 
 
 
