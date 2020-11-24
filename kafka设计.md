@@ -208,7 +208,7 @@ kafka镜像
 
 ​	将源集群的数据副本到target kafka集群
 
-![1583037426681](C:\Users\shursulei\AppData\Roaming\Typora\typora-user-images\1583037426681.png)
+![1583037426681](kafka设计.assets/1583037426681.png)
 
 右边的kafka集群中的consumer拉取左边集群消息，同步到右边。
 

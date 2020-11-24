@@ -61,32 +61,16 @@ cd /sas/sas94/SASHome/SASFoundation/9.4/utilities/bin/
 
 ```
 
-![1583212589554](C:\Users\sbjles\AppData\Roaming\Typora\typora-user-images\1583212589554.png)
-
-
-
-![1583223342826](C:\Users\sbjles\AppData\Roaming\Typora\typora-user-images\1583223342826.png)
-
 ```shell
 mkdir -p /etc/opt/vmware/vfabric/
 chown -R sas:sasgroup /etc/opt/vmware/vfabric/
 ```
 
-![1583228204790](C:\Users\sbjles\AppData\Roaming\Typora\typora-user-images\1583228204790.png)
-
-![1583228343210](C:\Users\sbjles\AppData\Roaming\Typora\typora-user-images\1583228343210.png)
-
 增大内存
 
 修改limits
 
-
-
 验证结果
-
-![1583291483582](C:\Users\sbjles\AppData\Roaming\Typora\typora-user-images\1583291483582.png)
-
-
 
 #### 启停顺序
 
@@ -121,50 +105,6 @@ SAS [Config-Lev1] SASMeta - Metadata Server
 /sas/sas94/Config/Lev1/sas.servers stop
 /sas/sas94/Config/Lev1/sas.servers status
 ```
-
-#### EMM-setup
-
-#### Windows 安装的截图
-
-![img](file:///C:/Users/sbjles/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg)
-
- 
-
- 
-
- 
-
- 
-
-OA
-
-![img](file:///C:/Users/sbjles/AppData/Local/Temp/msohtmlclip1/01/clip_image004.jpg)
-
-![img](file:///C:/Users/sbjles/AppData/Local/Temp/msohtmlclip1/01/clip_image006.jpg)
-
-![img](file:///C:/Users/sbjles/AppData/Local/Temp/msohtmlclip1/01/clip_image008.jpg)
-
-![img](file:///C:/Users/sbjles/AppData/Local/Temp/msohtmlclip1/01/clip_image010.jpg)
-
- 
-
-![img](file:///C:/Users/sbjles/AppData/Local/Temp/msohtmlclip1/01/clip_image012.jpg)
-
- 
-
-![img](file:///C:/Users/sbjles/AppData/Local/Temp/msohtmlclip1/01/clip_image014.jpg)
-
-![img](file:///C:/Users/sbjles/AppData/Local/Temp/msohtmlclip1/01/clip_image016.jpg)
-
-![img](file:///C:/Users/sbjles/AppData/Local/Temp/msohtmlclip1/01/clip_image018.jpg)
-
-![img](file:///C:/Users/sbjles/AppData/Local/Temp/msohtmlclip1/01/clip_image020.jpg)
-
-需要配置hosts
-
- 
-
-![img](file:///C:/Users/sbjles/AppData/Local/Temp/msohtmlclip1/01/clip_image022.jpg)
 
 
 
