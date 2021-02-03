@@ -242,3 +242,42 @@ mysql中 insert …select …带来的问题
 
 ```
 
+查询指定表的数据结构
+
+```
+SELECT
+	TABLE_NAME 表名,
+	COLUMN_NAME 列名,
+	COLUMN_TYPE 数据类型,
+	DATA_TYPE 字段类型,
+	CHARACTER_MAXIMUM_LENGTH 长度,
+	IS_NULLABLE 是否为空,
+	COLUMN_DEFAULT 默认值,
+	COLUMN_COMMENT 备注
+FROM
+  information_schema. COLUMNS
+WHERE
+  TABLE_NAME IN (
+		'erp_pmr_azmma_d0200',
+		'erp_pmr_azmma_d0300',
+		'erp_pmr_azmma_d0600',
+		'erp_pmr_azpsp_d0100',
+		'erp_pmr_azpsp_d0200',
+		'erp_pmr_azpsp_d2000',
+		'erp_pmr_azpsp_d2100',
+		'erp_pmr_azpsp_d2200',
+		'erp_pmr_azpsp_d2300',
+		'erp_pmr_azpsp_d2600',
+		'erp_pmr_azpsp_d3800',
+		'erp_pmr_azpsp_n0900',
+		'erp_pmr_azpsp_n2400',
+		'erp_pmr_zysdwfx_d001',
+		'erp_pmr_zysdwfx_d002',
+		'erp_pmr_zysdwfx_d003',
+		'erp_pmr_zysdwfx_d004',
+		'erp_pmr_zysdwfx_d005',
+		'erp_pmr_zysdwfx_d006'
+  )
+AND TABLE_SCHEMA = 'henan';
+```
+
