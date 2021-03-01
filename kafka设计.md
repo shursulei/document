@@ -2,6 +2,32 @@ kafka:分布式流式处理平台，消息引擎
 
 
 
+## kafka消息保留策略:
+
+按照时间:比如天
+
+按照数据存储量:比如字节数
+
+按主题特点进行保存
+
+
+
+## kafka性能影响因素
+
+生产者性能:磁盘的吞吐量
+
+消费者性能:内存的(系统页面缓存)
+
+
+
+## broker如何计算
+
+
+
+
+
+
+
 kafka的消息设计格式:
 
 XML/JSON/二进制    结构化数据
@@ -128,7 +154,11 @@ sudo sysctl -w net.core.rmem_max=524288000
 
 
 
-producer
+# producer
+
+ProducerRecode对象
+
+ProducerMetaData对象
 
 语言选择;
 

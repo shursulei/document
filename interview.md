@@ -118,11 +118,11 @@ hadoop job -kill job_201212111628_11166
 
 ## Hive
 
-![image-20201016141543247](D:\software\typora\workspace2\interview.assets\image-20201016141543247.png)
+![image-20201016141543247](D:\software\typora\workspace\interview.assets\image-20201016141543247.png)
 
 
 
-![image-20201016144927801](D:\software\typora\workspace2\interview.assets\image-20201016144927801.png)
+![image-20201016144927801](D:\software\typora\workspace\interview.assets\image-20201016144927801.png)
 
 Top N
 
@@ -189,6 +189,10 @@ set mapred.max.split.size=256000000; ##每个 Map 最大分割大小
 set mapred.min.split.size.per.node=1; ##一个节点上 split 的最少值
 set hive.input.format=org.apache.hadoop.hive.ql.io.CombineHiveInputFormat; ##执行 Map 前进行小文件合并
 ```
+
+### 分区和分桶的区别:
+
+分桶的粒度比分区更细
 
 
 
@@ -652,4 +656,49 @@ HDFS的JMX的学习原理
 
 
 
+
+
+
+
+
+# mysql
+
+
+
+
+
+# HDFS
+
+为什么HDFS block不能设置太大，也不能设置太小？
+
+
+
+
+
+寻址时间：指HDFS中定位到目标block开始位置所需的时间。
+
+- 文件块越大，寻址时间越短，但磁盘传输时间更长；
+- 文件块越小，寻址时间越长，但磁盘传输时间更短。
+
+
+
+- 减少硬盘寻道时间(disk seek time)：HDFS的设计是为了支持大数据操作，合适的block大小有助于减少硬盘寻道时间（平衡了硬盘寻道时间、IO时间），提高系统吞吐量。
+- 减少NameNode内存消耗：NameNode需要在内存FSImage文件中记录DataNode中数据块信息，若block size太小，那么需要维护的数据块信息会更多。而HDFS只有一个NameNode节点，内存是极其有限的。
+- map崩溃问题：若Map任务崩溃，重新启动执行需要重新加载数据，数据块越大，数据加载时间将越长，恢复时间越长。
+- 监管时间问题：主节点监管其他节点的情况，每个节点会周期性的把完成的工作和状态的更新报告回来。若某个节点保存沉默超过预设的时间间隔，主节点“宣告”该节点状态为死亡，并把分配给这个节点的数据发到别的节点。预设的时间间隔是根据数据块 size角度估算的，若size设置不合理，容易误判节点死亡。
+- 约束Map任务输出：MapReduce框架中Map任务输出的结果是要经过排序才给reduce函数操作的。在Map任务的merge on disk和Reduce任务中合并溢写生的文件，用到归并排序算法，对小文件进行排序，然后将小文件归并成大文件。
+
+
+
+
+
+# lambda架构和kappa架构
+
+流式处理和批处理
+
+缺点:需要负责的系统架构比较多
+
+
+
+# 数仓
 
