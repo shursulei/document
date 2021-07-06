@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-06T11:44:03.859Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="gEVrcbjC9ZwkQPMbWAgI" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-06T11:54:58.569Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="ZGPFaL7G7mmGV8dlOUfc" version="14.8.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1550" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -82,7 +82,7 @@
         <mxCell id="jltaaVhKmZemYznl_OEe-5" value="springboot" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="490" y="1091" width="123" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="jltaaVhKmZemYznl_OEe-6" value="数据库连接池(jdbc)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="jltaaVhKmZemYznl_OEe-6" value="数据库连接池" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="140" y="1151" width="350" height="49" as="geometry" />
         </mxCell>
         <mxCell id="jltaaVhKmZemYznl_OEe-7" value="&lt;span&gt;service层(元数据逻辑处理)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -90,6 +90,39 @@
         </mxCell>
         <mxCell id="jltaaVhKmZemYznl_OEe-8" value="druid" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="490" y="1150" width="123" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jltaaVhKmZemYznl_OEe-9" value="数据库driver驱动" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="140" y="1200" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jltaaVhKmZemYznl_OEe-11" value="odps driver" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="140" y="1230" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jltaaVhKmZemYznl_OEe-12" value="mysql driver" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="1230" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jltaaVhKmZemYznl_OEe-13" value="postgresql driver" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="1230" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jltaaVhKmZemYznl_OEe-14" value="等等" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="440" y="1230" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jltaaVhKmZemYznl_OEe-15" value="jdbc协议" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="489" y="1200" width="123" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jltaaVhKmZemYznl_OEe-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="139" y="1270" width="350" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jltaaVhKmZemYznl_OEe-17" value="maxcompute" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="1275" width="80" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="jltaaVhKmZemYznl_OEe-18" value="mysql数据库" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="270" y="1275" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jltaaVhKmZemYznl_OEe-19" value="postgresql数据" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="380" y="1275" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jltaaVhKmZemYznl_OEe-21" value="持久层(异构数据源)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="489" y="1270" width="123" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
