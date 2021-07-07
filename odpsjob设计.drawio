@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-07T12:40:34.829Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="58G-hm05PYL7noNbDuSQ" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-07T12:45:52.819Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="i2LQlD17y3GyL3wU_bAP" version="14.8.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1800" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="878" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -19,20 +19,17 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="提交sql任务，将instancid写入Mysql表，返回已经成写入，等待消息" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="170" y="170" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vJR7pnk0Y-MyIqnq0phN-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vJR7pnk0Y-MyIqnq0phN-0" target="vJR7pnk0Y-MyIqnq0phN-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="vJR7pnk0Y-MyIqnq0phN-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="737" as="sourcePoint" />
+            <mxPoint x="310" y="784" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="vJR7pnk0Y-MyIqnq0phN-0" value="试运行方案（提交sql，生成instance）" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="50" y="677" width="520" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="vJR7pnk0Y-MyIqnq0phN-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vJR7pnk0Y-MyIqnq0phN-2" target="vJR7pnk0Y-MyIqnq0phN-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="vJR7pnk0Y-MyIqnq0phN-2" value="提交任务(写入一张标签测试表，外部表存储在oss上,存储格式为csv),Mapper设置为1" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="50" y="784" width="520" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="vJR7pnk0Y-MyIqnq0phN-6" value="instance成功后，获取oss文件的url" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="50" y="897" width="520" height="60" as="geometry" />
+        <mxCell id="vJR7pnk0Y-MyIqnq0phN-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="844" as="sourcePoint" />
+            <mxPoint x="310" y="945" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Pl5CHJV5vN_VHZbdLrqD-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Pl5CHJV5vN_VHZbdLrqD-0" target="WIyWlLk6GJQsqaUBKTNV-6">
           <mxGeometry relative="1" as="geometry" />
@@ -145,6 +142,15 @@
         </mxCell>
         <mxCell id="Pl5CHJV5vN_VHZbdLrqD-59" value="试运行方案" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="50" y="610" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pl5CHJV5vN_VHZbdLrqD-62" value="&lt;span&gt;试运行（提交sql，生成instance）&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="254" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pl5CHJV5vN_VHZbdLrqD-63" value="&lt;span&gt;(写入一张标签测试表，外部表存储在oss上,存储格式为csv),Mapper设置为1&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="250" y="790" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Pl5CHJV5vN_VHZbdLrqD-64" value="&lt;span&gt;instance成功后，获取oss文件的url&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="250" y="950" width="120" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
