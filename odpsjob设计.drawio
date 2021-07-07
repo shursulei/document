@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-07T03:44:25.967Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="8JbCF4Kt_9SB-BSw5IqY" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-07T03:47:08.078Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="NP7rexyDxOVtn4rUNdoB" version="14.8.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,8 +43,8 @@
         <mxCell id="Pl5CHJV5vN_VHZbdLrqD-3" value="定时器扫描任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="354" y="320" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Pl5CHJV5vN_VHZbdLrqD-5" value="&lt;span&gt;标签工厂提交sql任务&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="50" y="1000" width="150" height="80" as="geometry" />
+        <mxCell id="Pl5CHJV5vN_VHZbdLrqD-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="1020" width="440" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
