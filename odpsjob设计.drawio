@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-06T15:16:40.680Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="f_lKOqKeyoX9gN2b6xRc" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-07T01:55:58.528Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="IVkwPyZoMMMmpJtwdhkf" version="14.8.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="786" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -45,20 +45,20 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="Replace Bulb" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="320" y="310" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vJR7pnk0Y-MyIqnq0phN-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vJR7pnk0Y-MyIqnq0phN-0" target="vJR7pnk0Y-MyIqnq0phN-2">
+        <mxCell id="vJR7pnk0Y-MyIqnq0phN-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vJR7pnk0Y-MyIqnq0phN-0" target="vJR7pnk0Y-MyIqnq0phN-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vJR7pnk0Y-MyIqnq0phN-0" value="试运行方案（提交sql，生成instance）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="50" y="490" width="520" height="60" as="geometry" />
+        <mxCell id="vJR7pnk0Y-MyIqnq0phN-0" value="试运行方案（提交sql，生成instance）" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="50" y="532" width="520" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vJR7pnk0Y-MyIqnq0phN-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vJR7pnk0Y-MyIqnq0phN-2" target="vJR7pnk0Y-MyIqnq0phN-6">
+        <mxCell id="vJR7pnk0Y-MyIqnq0phN-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vJR7pnk0Y-MyIqnq0phN-2" target="vJR7pnk0Y-MyIqnq0phN-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vJR7pnk0Y-MyIqnq0phN-2" value="提交任务(写入一张标签测试表，外部表存储在oss上,存储格式为csv)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="50" y="597" width="520" height="60" as="geometry" />
+        <mxCell id="vJR7pnk0Y-MyIqnq0phN-2" value="提交任务(写入一张标签测试表，外部表存储在oss上,存储格式为csv)" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="50" y="639" width="520" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vJR7pnk0Y-MyIqnq0phN-6" value="instance成功后，获取oss文件的url" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="50" y="710" width="520" height="60" as="geometry" />
+        <mxCell id="vJR7pnk0Y-MyIqnq0phN-6" value="instance成功后，获取oss文件的url" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="50" y="752" width="520" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
